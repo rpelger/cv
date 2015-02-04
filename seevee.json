@@ -96,34 +96,34 @@
     }
   ],
   "aboutme": [
-    {"text": "Studium der Informatik mit Schwerpunkt 'Architektur verteilter Systeme'"},
-    {"text": "Agile over Waterfall, Spring over JEE, Continuous Delivery over Deployment Fears"}
+    "Studium der Informatik mit Schwerpunkt 'Architektur verteilter Systeme'",
+    "Agile over Waterfall, Spring over JEE, Continuous Delivery over Deployment Fears"
   ],
   "experience": [
-    {"text": "7 Jahre Informatik / Software Entwicklung"},
-    {"text": "4 Jahre Scrum/Agile Entwicklung"}
+    "7 Jahre Informatik / Software Entwicklung",
+    "4 Jahre Scrum/Agile Entwicklung"
   ],
   "methodicalskills": [
-    {"text": "Kanban, Scrum & agile Software Development"},
-    {"text": "Test-driven Development"},
-    {"text": "Continuous Integration / Delivery"},
-    {"text": "Clean Code Development"},
-    {"text": "Scrum-Master Expertise"}
+    "Kanban, Scrum & agile Software Development",
+    "Test-driven Development",
+    "Continuous Integration / Delivery",
+    "Clean Code Development",
+    "Scrum-Master Expertise"
   ],
   "industryskills": [
-    {"text": "Online Business, Telekommunikation"}
+    "Online Business, Telekommunikation"
   ],
   "itskills": [
-    {"text": "Java, JavaScript"},
-    {"text": "Spring, Wicket, Hazelcast, Hibernate, Flyway"},
-    {"text": "Gradle, Maven, Git, SVN, Jenkins, TeamCity"},
-    {"text": "Oracle, MongoDB, Neo4j"},
-    {"text": "JUnit/TestNG, Mockito, SonarQube"},
-    {"text": "HTML, CSS, AngularJS, Node.js, Express, Famo.us"},
-    {"text": "Tomcat, Jetty, Nginx"},
-    {"text": "Docker, VirtualBox, Vagrant"},
-    {"text": "IntelliJ IDEA, Eclipse"},
-    {"text": "MacOS, Linux, Windows"}
+    "Java, JavaScript",
+    "Spring, Wicket, Hazelcast, Hibernate, Flyway",
+    "Gradle, Maven, Git, SVN, Jenkins, TeamCity",
+    "Oracle, MongoDB, Neo4j",
+    "JUnit, Mockito, SonarQube",
+    "HTML, CSS, AngularJS, Node.js, Express, Famo.us",
+    "Tomcat, Jetty, Nginx",
+    "Docker, VirtualBox, Vagrant",
+    "IntelliJ IDEA, Eclipse",
+    "MacOS, Linux, Windows"
   ],
   "projecthistory": [
     {
