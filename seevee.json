@@ -212,7 +212,10 @@
         "JAXB2",
         "JPA2"
       ],
-      "descriptionTextBlocks": []
+      "descriptionTextBlocks": [
+        "Durch die Übernahme der TicketOnline Software GmbH durch die CTS Eventim AG, sollten Inhalte des TicketOnline Systems über das System von CTS verfügbar gemacht werden. Zu diesem Zweck wurde ein von CTS bereitgestellte WebService- Schnittstellenbeschreibung (WSDL) serverseitig bei TicketOnline implementiert, die als Adapter zwischen beiden Seiten diente und die Verkaufs- und Buchungsprozesse, sowie die unterschiedlichen Datenmodelle aufeinander abbildet. Die Umsetzung erfolgt dabei mit Hilfe von Spring und Spring-WS, sowie Jaxb2. Insbesondere durch den Einsatz von Spring-WS konnten Probleme mit der nicht standardkonformen WSDL vermieden werden und die einzelnen Services schnell und unkompliziert umgesetzt werden. Ebenso das Marshalling und Unmarshalling der XML-Nachrichten per Jaxb2. Für die Abbildung der Prozesse musste stellenweise die bestehende TO30-API angepasst oder neu implementiert werden. Bei ausschließlich lesendem Zugriff auf das TO30-System konnten benötigte Daten über den Einsatz von JPA 2.0 einfach ausgelesen und bereitgestellt werden.",
+        "Hauptschwierigkeit lag in der Abbildung der teils sehr unterschiedlichen Prozesse und des Datenmodells zwischen den Systemen. Hier wurde in enger Abstimmung mit den Entwicklern von CTS die Modelle schrittweise angepasst und optimiert, sodass letztliche ein fehlerfreie und sichere Kommunikation und Konsistenz der System gewährleistet werden konnte.Als Softwareentwickler und im Laufe des Projekts als Teamleiter war ich am gesamten Lebenzyklus des Projekts beteiligt, insbesondere die Analyse der Prozesse des CTS-Systems, sowie an grundlegenden Architekturentscheidungen, und der Technologieauswahl war ich maßgeblich verantwortlich. Zudem stand ich während des Projekts Kollegen als Ansprechpartner für Fragen bzgl. Spring, Spring-WS, sowie WebService-Technologien zur Verfügung. Die Umsetzung des Projekts erfolgte dabei innerhalb eines Scrum-Teams von 5-7 Personen."
+      ]
     },
     {
       "fromDate": "2009-10-01",
