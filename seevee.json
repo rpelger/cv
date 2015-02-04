@@ -138,19 +138,8 @@
 				"Java", "Spring", "Spring Framework", "Wicket", "Hibernate/JPA", "HTML/CSS (Bootstrap)", "REST/SOAP Webservices", "Flyway", "Gradle", "Git", "Jenkins", "SonarQube"
             ],
             "descriptionTextBlocks" : [
-                "In Zusammenarbeit mit dem Kunden wird derzeit eine Webanwendung auf Basis von Apache Wicket und Spring Framework 
-                entwickelt und in die bestehende Anwendungslandschaft integriert. Die Anwendung bildet einen Bestellprozess ab 
-                und greift dazu auf Stammdaten der Endanwender über verschiedene interne und externe Schnittstellen zu (REST und 
-                zum Teil SOAP basierte Webservices). Die dabei gesammelten Bestelldaten werden wiederum über REST Services den 
-                Nachbarsystemen zur Auswertung und Administration zur Verfügung gestellt. Die Oberfläche der Wicket Webanwendung 
-                wird dabei mit Hilfe von Bootstrap gestaltet und customized. Weiterer Bestandteil der Projekts ist die Integration 
-                und Optimierung des Continuous Integration, bzw. Delivery Prozesses des Kunden, besondere Herausforderung ist dabei 
-                die reibungslose Durchführung von Integrationstests gegen die Vielzahl der externen Systeme und Schnittstellen.",
-
-                "Das Team besteht aus 6 Entwicklern und einem Product Owner. Entwickelt wird dabei in einem agilen Kanban Prozess. Innerhalb 
-                des Teams bin ich sowohl für Konzeption, Entwicklung- und Test des Systems mitverantwortlich, als auch für die 
-                Gestaltung und Umsetzung des Frontends. Als Berater für schlanke Softwareentwicklung bin ich zudem technischer 
-                Ansprechpartner und Innovationstreiber beim Kunden."
+                "In Zusammenarbeit mit dem Kunden wird derzeit eine Webanwendung auf Basis von Apache Wicket und Spring Framework entwickelt und in die bestehende Anwendungslandschaft integriert. Die Anwendung bildet einen Bestellprozess ab und greift dazu auf Stammdaten der Endanwender über verschiedene interne und externe Schnittstellen zu (REST und zum Teil SOAP basierte Webservices). Die dabei gesammelten Bestelldaten werden wiederum über REST Services den Nachbarsystemen zur Auswertung und Administration zur Verfügung gestellt. Die Oberfläche der Wicket Webanwendung wird dabei mit Hilfe von Bootstrap gestaltet und customized. Weiterer Bestandteil der Projekts ist die Integration und Optimierung des Continuous Integration, bzw. Delivery Prozesses des Kunden, besondere Herausforderung ist dabei die reibungslose Durchführung von Integrationstests gegen die Vielzahl der externen Systeme und Schnittstellen.",
+                "Das Team besteht aus 6 Entwicklern und einem Product Owner. Entwickelt wird dabei in einem agilen Kanban Prozess. Innerhalb des Teams bin ich sowohl für Konzeption, Entwicklung- und Test des Systems mitverantwortlich, als auch für die Gestaltung und Umsetzung des Frontends. Als Berater für schlanke Softwareentwicklung bin ich zudem technischer Ansprechpartner und Innovationstreiber beim Kunden."
             ]
         },
         {
@@ -165,22 +154,9 @@
                 "Java", "Spring", "Hibernate/JPA", "SAML 2", "Maven/Gradle", "SVN/Git", "Jenkins", "Tomcat", "OracleDB"
             ],
             "descriptionTextBlocks" : [
-                "Für die Webanwendungen und WebServices des Kunden muss eine einheitliche Single Sign-On Lösung zur (mehrstufigen) 
-                Authentisierung der Benutzer bereitgestellt werden, die es ermöglicht Benutzer aus unterschiedlichen Datenquellen 
-                über eine einheitliches System zu authentisieren. Zudem werden den einbindenden Systemen Autorisierungsdaten geliefert, 
-                um das gewünschte Berechtigungssystem in der jeweiligen Anwendung abzubilden. Diese Authentisierungslösung wird als 
-                Komponente bereitgestellt und kann so von beliebigen Kundenanwendungen eingebunden und genutzt werden.",
-                
-                "Zur Pflege der Benutzer und deren Berechtigungen wird für den Kunden eine Webanwendungen entwickelt, die eine dedizierte Rollen- und 
-                Rechtevergabe ermöglicht. Als Erweiterung zur bestehenden Authentisierungslösung wird für den Kunden zudem ein Föderiertes 
-                Identitätsmanagement auf SAML 2.0 Basis entwicklelt und eingebunden.", 
-                
-                "Webanwendung, sowie die Authentisierungs- und Autorisierungslogik und die dafür bereitgestellten WebServices werden nahezu vollständig mit JEE/Spring Technologie 
-                umgesetzt.\nAls Softwareentwickler in einem agilen Scrum/Kanban Team von 4-5 Personen, bin ich für den gesamten Lebenszyklus 
-                des Produkts mitverantwortlich und wirke aktiv an Analyse, Design und Softwarearchitektur, sowie Umsetzung, Test und Wartung mit. 
-                Als JEE Spring Enterprise Specialist stehe ich als Ansprechpartner für Spring Technologien zur Verfügung und bringe 
-                aktive Vorschläge und Umsetzungempfehlungen in das Team ein. Ich unterstütze zudem die Umsetzung des Continuous Integration 
-                und –Delivery Prozesses mit Jenkins, Git, SVN, Gradle und Maven."
+                "Für die Webanwendungen und WebServices des Kunden muss eine einheitliche Single Sign-On Lösung zur (mehrstufigen) Authentisierung der Benutzer bereitgestellt werden, die es ermöglicht Benutzer aus unterschiedlichen Datenquellen über eine einheitliches System zu authentisieren. Zudem werden den einbindenden Systemen Autorisierungsdaten geliefert, um das gewünschte Berechtigungssystem in der jeweiligen Anwendung abzubilden. Diese Authentisierungslösung wird als Komponente bereitgestellt und kann so von beliebigen Kundenanwendungen eingebunden und genutzt werden.",
+                "Zur Pflege der Benutzer und deren Berechtigungen wird für den Kunden eine Webanwendungen entwickelt, die eine dedizierte Rollen- und Rechtevergabe ermöglicht. Als Erweiterung zur bestehenden Authentisierungslösung wird für den Kunden zudem ein Föderiertes Identitätsmanagement auf SAML 2.0 Basis entwicklelt und eingebunden.", 
+                "Webanwendung, sowie die Authentisierungs- und Autorisierungslogik und die dafür bereitgestellten WebServices werden nahezu vollständig mit JEE/Spring Technologie umgesetzt.\nAls Softwareentwickler in einem agilen Scrum/Kanban Team von 4-5 Personen, bin ich für den gesamten Lebenszyklus des Produkts mitverantwortlich und wirke aktiv an Analyse, Design und Softwarearchitektur, sowie Umsetzung, Test und Wartung mit. Als JEE Spring Enterprise Specialist stehe ich als Ansprechpartner für Spring Technologien zur Verfügung und bringe aktive Vorschläge und Umsetzungempfehlungen in das Team ein. Ich unterstütze zudem die Umsetzung des Continuous Integration und –Delivery Prozesses mit Jenkins, Git, SVN, Gradle und Maven."
             ]
         },
         {
