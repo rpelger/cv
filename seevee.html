@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Robert Pelger</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400|Roboto+Slab" rel="stylesheet" type="text/css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://comsysto.github.io/seevee-static/comsysto/1/css/basic.css" />
+    <!--[if lt IE 9]>
+	    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9">
+				<span class="avatar">
+					<img alt="Robert Pelger" src="https://avatars.githubusercontent.com/u/296459?v=3" />
+				</span> 
+				<span class="header-info"> 
+					<span class="name">Robert Pelger</span> 
+					<span class="jobtitle">Lean Java Expert</span>
+					<span class="qualification">Diplom-Informatiker (Dipl.-Inf)</span>
+					<span class="qualificationalinstitution">Technische Universität Dresden (2003-2009)</span>
+				</span>
+            </div>
+            <div class="col-sm-3 text-right header-logo">
+                <a href="http://www.comsysto.com"> 
+					<img src="https://comsysto.github.io/seevee-static/comsysto/1/img/comsysto.png" alt="comSysto" />
+				</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<body>
+
+<div class="container cv">
+    <div class="row">
+        <div class="col-md-6">
+            <h3>
+                <i class="fa fa-phone"></i> Personal data
+            </h3>
+            <p>
+                <span class="key">Lastname</span>
+                <span>Pelger</span>
+            </p>
+            <p>
+                <span class="key">Firstname</span>
+                <span>Robert</span>
+            </p>
+         	<p>
+                <span class="key">Date of Birth</span>
+				<span>12.07.1982</span>
+            </p>
+            <div>
+	            <div>
+	            	<p>
+	                	<span class="key">Address</span>
+						<span>
+							Tumblingerstr. 23
+							
+								
+									<br />
+								
+								80337 München
+							
+						</span>
+	            	</p>
+	            </div>
+	            <p>
+	                <span class="key">Landline</span>
+					<span>+49 89 550 60 588</span>
+	            </p>
+	            <p>
+	                <span class="key">Mobile</span>
+					<span>+49 176 144 77 580</span>
+	            </p>
+	            <p>
+	                <span class="key">Mail</span>
+					<span>
+						<a href="mailto:robert.pelger@comsysto.com">robert.pelger@comsysto.com</a>
+					</span>
+	            </p>
+			</div>
+			<div>
+	            <h3>
+	                <i class="fa fa-star"></i> Top Skills
+	            </h3>
+	            <div>
+	                <p>
+	                    <span class="key">95%</span> 
+	                    <span>Java</span>
+	                </p>
+	            </div>
+	            <div>
+	                <p>
+	                    <span class="key">95%</span> 
+	                    <span>Spring</span>
+	                </p>
+	            </div>
+	            <div>
+	                <p>
+	                    <span class="key">80%</span> 
+	                    <span>Hibernate</span>
+	                </p>
+	            </div>
+	            <div>
+	                <p>
+	                    <span class="key">75%</span> 
+	                    <span>Apache Wicket</span>
+	                </p>
+	            </div>
+	            <div>
+	                <p>
+	                    <span class="key">80%</span> 
+	                    <span>Gradle</span>
+	                </p>
+	            </div>
+	            <div>
+	                <p>
+	                    <span class="key">75%</span> 
+	                    <span>Maven</span>
+	                </p>
+	            </div>
+	            <div>
+	                <p>
+	                    <span class="key">80%</span> 
+	                    <span>JavaScript</span>
+	                </p>
+	            </div>
+	            <div>
+	                <p>
+	                    <span class="key">95%</span> 
+	                    <span>Scrum</span>
+	                </p>
+	            </div>
+	            <div>
+	                <p>
+	                    <span class="key">75%</span> 
+	                    <span>HTML5/CSS</span>
+	                </p>
+	            </div>
+            </div>
+
+			<div th:="${jason.aboutme} and not ${json.aboutme?.isEmpty()}">
+	            <h3>
+	                <i class="fa fa-user"></i> About me
+	            </h3>
+	            <div>
+	                <p>Studium der Informatik mit Schwerpunkt &#39;Architektur verteilter Systeme&#39;</p>
+	            </div>
+	            <div>
+	                <p>Agile over Waterfall, Spring over JEE, Continuous Delivery over Deployment Fears</p>
+	            </div>
+            </div>
+
+			<div>
+	            <h3>
+	                <i class="fa fa-road"></i> Experience
+	            </h3>
+	            <div>
+	                <p>7 Jahre Informatik / Software Entwicklung</p>
+	            </div>
+	            <div>
+	                <p>4 Jahre Scrum/Agile Entwicklung</p>
+	            </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+        	<div>
+	            <h3>
+	                <i class="fa fa-rocket"></i> IT Skills
+	            </h3>
+	            <div>
+	                <p>Java, JavaScript</p>
+	            </div>
+	            <div>
+	                <p>Spring, Wicket, Hazelcast, Hibernate, Flyway</p>
+	            </div>
+	            <div>
+	                <p>Gradle, Maven, Git, SVN, Jenkins, TeamCity</p>
+	            </div>
+	            <div>
+	                <p>Oracle, MongoDB, Neo4j</p>
+	            </div>
+	            <div>
+	                <p>JUnit, Mockito, SonarQube</p>
+	            </div>
+	            <div>
+	                <p>HTML, CSS, AngularJS, Node.js, Express, Famo.us</p>
+	            </div>
+	            <div>
+	                <p>Tomcat, Jetty, Nginx</p>
+	            </div>
+	            <div>
+	                <p>Docker, VirtualBox, Vagrant</p>
+	            </div>
+	            <div>
+	                <p>IntelliJ IDEA, Eclipse</p>
+	            </div>
+	            <div>
+	                <p>MacOS, Linux, Windows</p>
+	            </div>
+            </div>
+
+            <div>
+	            <h3>
+	                <i class="fa fa-briefcase"></i> Methodical Skills
+	            </h3>
+	            <div>
+	                <p>Kanban, Scrum &amp; agile Software Development</p>
+	            </div>
+	            <div>
+	                <p>Test-driven Development</p>
+	            </div>
+	            <div>
+	                <p>Continuous Integration / Delivery</p>
+	            </div>
+	            <div>
+	                <p>Clean Code Development</p>
+	            </div>
+	            <div>
+	                <p>Scrum-Master Expertise</p>
+	            </div>
+            </div>
+
+			<div>
+	            <h3>
+	                <i class="fa fa-building"></i> Industry Skills
+	            </h3>
+	            <div>
+	                <p>Online Business, Telekommunikation</p>
+	            </div>
+            </div>
+            <div>
+            	<h3>
+            		<i class="fa fa-language"></i>Languages
+            	</h3>
+            	<div>
+	                <p>
+	                    <span class="key">100%</span> 
+	                    <span>Deutsch</span>
+	                </p>
+	            </div>
+            	<div>
+	                <p>
+	                    <span class="key">90%</span> 
+	                    <span>Englisch</span>
+	                </p>
+	            </div>
+            	<div>
+	                <p>
+	                    <span class="key">20%</span> 
+	                    <span>Französisch</span>
+	                </p>
+	            </div>
+            </div>
+            <div>
+            	<h3>
+            		<i class="fa fa-certificate"></i>Certifications
+            	</h3>
+            	<div>
+	                <p>
+	                    <a href="http://www.pivotal.io/training">Certified Spring Professional</a>
+	                </p>
+	            </div>
+            	<div>
+	                <p>
+	                    <a href="borisgloger.com">Certified Scrum Master</a>
+	                </p>
+	            </div>
+            	<div>
+	                <p>
+	                    <a href="http://www.isaqb.org">iSAQB Certified Professional for Software Architecture Foundation Level</a>
+	                </p>
+	            </div>
+            </div>
+        </div>
+    </div>
+    <div>
+	    <div class="row">
+	        <div class="col-xs-12">
+	            <h3>
+	                <i class="fa fa-code-fork"></i> Project History
+	            </h3>
+	        </div>
+	        <div class="clearfix"></div>
+	        <div class="project first clearfix">
+	            <div class="col-md-2 circle">
+					<span>
+						
+                            0 years
+                            
+                                <br />
+                            
+                        
+						6 months
+					</span>
+	            </div>
+	            <div class="col-md-10">
+	                <p>
+	                    <span class="key">Company</span>
+	                    <span>Kassenärztliche Vereinigung Bayern</span>
+	                </p>
+	                <p>
+	                    <span class="key">Position</span>
+	                    <span>Softerware Developer</span>
+	                </p>
+	                <p>
+	                    <span class="key">Project</span>
+	                    <span>KV-Ident Plus - Webanwendungsentwicklung</span>
+	                </p>
+	                <p>
+	                    <span class="key">Software</span> 
+						<span> 
+							
+                                <span class="label label-primary">Java</span>
+                             
+							
+                                <span class="label label-primary">Spring</span>
+                             
+							
+                                <span class="label label-primary">Spring Framework</span>
+                             
+							
+                                <span class="label label-primary">Wicket</span>
+                             
+							
+                                <span class="label label-primary">Hibernate/JPA</span>
+                             
+							
+                                <span class="label label-primary">HTML/CSS (Bootstrap)</span>
+                             
+							
+                                <span class="label label-primary">REST/SOAP Webservices</span>
+                             
+							
+                                <span class="label label-primary">Flyway</span>
+                             
+							
+                                <span class="label label-primary">Gradle</span>
+                             
+							
+                                <span class="label label-primary">Git</span>
+                             
+							
+                                <span class="label label-primary">Jenkins</span>
+                             
+							
+                                <span class="label label-primary">SonarQube</span>
+                            
+						</span>
+	                </p>
+	                <p>
+	                    <span class="key">Description</span>
+						<span> 
+							<span>In Zusammenarbeit mit dem Kunden wird derzeit eine Webanwendung auf Basis von Apache Wicket und Spring Framework entwickelt und in die bestehende Anwendungslandschaft integriert. Die Anwendung bildet einen Bestellprozess ab und greift dazu auf Stammdaten der Endanwender über verschiedene interne und externe Schnittstellen zu (REST und zum Teil SOAP basierte Webservices). Die dabei gesammelten Bestelldaten werden wiederum über REST Services den Nachbarsystemen zur Auswertung und Administration zur Verfügung gestellt. Die Oberfläche der Wicket Webanwendung wird dabei mit Hilfe von Bootstrap gestaltet und customized. Weiterer Bestandteil der Projekts ist die Integration und Optimierung des Continuous Integration, bzw. Delivery Prozesses des Kunden, besondere Herausforderung ist dabei die reibungslose Durchführung von Integrationstests gegen die Vielzahl der externen Systeme und Schnittstellen.</span> <br />
+						</span>
+						<span> 
+							<span>Das Team besteht aus 6 Entwicklern und einem Product Owner. Entwickelt wird dabei in einem agilen Kanban Prozess. Innerhalb des Teams bin ich sowohl für Konzeption, Entwicklung- und Test des Systems mitverantwortlich, als auch für die Gestaltung und Umsetzung des Frontends. Als Berater für schlanke Softwareentwicklung bin ich zudem technischer Ansprechpartner und Innovationstreiber beim Kunden.</span> <br />
+						</span>
+	                </p>
+	            </div>
+	        </div>
+	        <div class="project first clearfix">
+	            <div class="col-md-2 circle">
+					<span>
+						
+                            1 years
+                            
+                                <br />
+                            
+                        
+						8 months
+					</span>
+	            </div>
+	            <div class="col-md-10">
+	                <p>
+	                    <span class="key">Company</span>
+	                    <span>Kassenärztliche Vereinignung Bayern</span>
+	                </p>
+	                <p>
+	                    <span class="key">Position</span>
+	                    <span>Software Developer</span>
+	                </p>
+	                <p>
+	                    <span class="key">Project</span>
+	                    <span>Argus - Authentisierungs- und Autorisierungslösungen für Webanwendungen und -Services</span>
+	                </p>
+	                <p>
+	                    <span class="key">Software</span> 
+						<span> 
+							
+                                <span class="label label-primary">Java</span>
+                             
+							
+                                <span class="label label-primary">Spring</span>
+                             
+							
+                                <span class="label label-primary">Hibernate/JPA</span>
+                             
+							
+                                <span class="label label-primary">SAML 2</span>
+                             
+							
+                                <span class="label label-primary">Maven/Gradle</span>
+                             
+							
+                                <span class="label label-primary">SVN/Git</span>
+                             
+							
+                                <span class="label label-primary">Jenkins</span>
+                             
+							
+                                <span class="label label-primary">Tomcat</span>
+                             
+							
+                                <span class="label label-primary">OracleDB</span>
+                            
+						</span>
+	                </p>
+	                <p>
+	                    <span class="key">Description</span>
+						<span> 
+							<span>Für die Webanwendungen und WebServices des Kunden muss eine einheitliche Single Sign-On Lösung zur (mehrstufigen) Authentisierung der Benutzer bereitgestellt werden, die es ermöglicht Benutzer aus unterschiedlichen Datenquellen über eine einheitliches System zu authentisieren. Zudem werden den einbindenden Systemen Autorisierungsdaten geliefert, um das gewünschte Berechtigungssystem in der jeweiligen Anwendung abzubilden. Diese Authentisierungslösung wird als Komponente bereitgestellt und kann so von beliebigen Kundenanwendungen eingebunden und genutzt werden.</span> <br />
+						</span>
+						<span> 
+							<span>Zur Pflege der Benutzer und deren Berechtigungen wird für den Kunden eine Webanwendungen entwickelt, die eine dedizierte Rollen- und Rechtevergabe ermöglicht. Als Erweiterung zur bestehenden Authentisierungslösung wird für den Kunden zudem ein Föderiertes Identitätsmanagement auf SAML 2.0 Basis entwicklelt und eingebunden.</span> <br />
+						</span>
+						<span> 
+							<span>Webanwendung, sowie die Authentisierungs- und Autorisierungslogik und die dafür bereitgestellten WebServices werden nahezu vollständig mit JEE/Spring Technologie umgesetzt.Als Softwareentwickler in einem agilen Scrum/Kanban Team von 4-5 Personen, bin ich für den gesamten Lebenszyklus des Produkts mitverantwortlich und wirke aktiv an Analyse, Design und Softwarearchitektur, sowie Umsetzung, Test und Wartung mit. Als JEE Spring Enterprise Specialist stehe ich als Ansprechpartner für Spring Technologien zur Verfügung und bringe aktive Vorschläge und Umsetzungempfehlungen in das Team ein. Ich unterstütze zudem die Umsetzung des Continuous Integration und –Delivery Prozesses mit Jenkins, Git, SVN, Gradle und Maven.</span> <br />
+						</span>
+	                </p>
+	            </div>
+	        </div>
+	        <div class="project first clearfix">
+	            <div class="col-md-2 circle">
+					<span>
+						
+                            0 years
+                            
+                                <br />
+                            
+                        
+						7 months
+					</span>
+	            </div>
+	            <div class="col-md-10">
+	                <p>
+	                    <span class="key">Company</span>
+	                    <span>Ticket Online Software GmbH</span>
+	                </p>
+	                <p>
+	                    <span class="key">Position</span>
+	                    <span>Teamlead / Software Developer</span>
+	                </p>
+	                <p>
+	                    <span class="key">Project</span>
+	                    <span>Archivierung TO30 Ticketingsystem</span>
+	                </p>
+	                <p>
+	                    <span class="key">Software</span> 
+						<span> 
+							
+                                <span class="label label-primary">Java</span>
+                             
+							
+                                <span class="label label-primary">Oracle</span>
+                             
+							
+                                <span class="label label-primary">PL/SQL</span>
+                            
+						</span>
+	                </p>
+	                <p>
+	                    <span class="key">Description</span>
+						<span> 
+							<span>Im Rahmen der Abschaltung des TO30-Ticketingsystems, müssen den Kunden des TO30-Ticketingsystems alle relevanten Buchungsdaten der vergangenen 10 Jahre bereitgestellt werden, so dass die Kunden der gesetzlichen Archivierungspflicht nachkommen können. Die Entwicklung beschränkte sich dabei hauptsächlich auf die Erstellung von Datenbank-Functions, und -Strukturen in PL/SQL zum Aggregieren und Bereitstellen der benötigten Daten, sowie die Ablaufsteuerung per Java-Client (Swing-GUI) und die Ausgabe in ein einheitliches Zielformat (CSV).</span> <br />
+						</span>
+						<span> 
+							<span>Hauptschwierigkeit war dabei die Vereinheitlichung der teils sehr heterogenen Daten unterschiedlicher Kunden in ein einheitliches Format und Berücksichtigung von Laufzeit- und Systemanforderungen, sowie gesetzlicher Auflagen.</span> <br />
+						</span>
+						<span> 
+							<span>Neben den Aufgaben in der Entwicklungsarbeit (Klärung von Anforderungen, Implementierung, Test), war eine weitere zentrale Aufgabe die Projektkoordination mit dem Auftraggeber (CTS Eventim), sowie externen Beratern bezüglich gesetzlicher Auflagen die beim Export, bzw. Aufbewahrung und Bereitstellung der Daten zu berücksichtigen sind.Als Teamleiter war ich innerhalb des Projekts mitverantwortlich für die Projektkoordierung und -Abstimmung, sowie als Softwareentwickler aktiv an der Entwicklungsarbeit auf Java und Datenbankseite, im Rahmen eines agilen Teams von 1-3 Entwicklern beteiligt.</span> <br />
+						</span>
+	                </p>
+	            </div>
+	        </div>
+	        <div class="project first clearfix">
+	            <div class="col-md-2 circle">
+					<span>
+						
+                            1 years
+                            
+                                <br />
+                            
+                        
+						3 months
+					</span>
+	            </div>
+	            <div class="col-md-10">
+	                <p>
+	                    <span class="key">Company</span>
+	                    <span>Ticket Online Software GmbH</span>
+	                </p>
+	                <p>
+	                    <span class="key">Position</span>
+	                    <span>Lead Developer</span>
+	                </p>
+	                <p>
+	                    <span class="key">Project</span>
+	                    <span>B2B-Integration der Ticketingsystem von CTS Eventim und TicketOnline (TO30)</span>
+	                </p>
+	                <p>
+	                    <span class="key">Software</span> 
+						<span> 
+							
+                                <span class="label label-primary">Java</span>
+                             
+							
+                                <span class="label label-primary">Spring</span>
+                             
+							
+                                <span class="label label-primary">WebServices (SOAP/XML)</span>
+                             
+							
+                                <span class="label label-primary">JAXB2</span>
+                             
+							
+                                <span class="label label-primary">JPA2</span>
+                            
+						</span>
+	                </p>
+	                <p>
+	                    <span class="key">Description</span>
+						<span> 
+							<span>Durch die Übernahme der TicketOnline Software GmbH durch die CTS Eventim AG, sollten Inhalte des TicketOnline Systems über das System von CTS verfügbar gemacht werden. Zu diesem Zweck wurde ein von CTS bereitgestellte WebService- Schnittstellenbeschreibung (WSDL) serverseitig bei TicketOnline implementiert, die als Adapter zwischen beiden Seiten diente und die Verkaufs- und Buchungsprozesse, sowie die unterschiedlichen Datenmodelle aufeinander abbildet. Die Umsetzung erfolgt dabei mit Hilfe von Spring und Spring-WS, sowie Jaxb2. Insbesondere durch den Einsatz von Spring-WS konnten Probleme mit der nicht standardkonformen WSDL vermieden werden und die einzelnen Services schnell und unkompliziert umgesetzt werden. Ebenso das Marshalling und Unmarshalling der XML-Nachrichten per Jaxb2. Für die Abbildung der Prozesse musste stellenweise die bestehende TO30-API angepasst oder neu implementiert werden. Bei ausschließlich lesendem Zugriff auf das TO30-System konnten benötigte Daten über den Einsatz von JPA 2.0 einfach ausgelesen und bereitgestellt werden.</span> <br />
+						</span>
+						<span> 
+							<span>Hauptschwierigkeit lag in der Abbildung der teils sehr unterschiedlichen Prozesse und des Datenmodells zwischen den Systemen. Hier wurde in enger Abstimmung mit den Entwicklern von CTS die Modelle schrittweise angepasst und optimiert, sodass letztliche ein fehlerfreie und sichere Kommunikation und Konsistenz der System gewährleistet werden konnte.Als Softwareentwickler und im Laufe des Projekts als Teamleiter war ich am gesamten Lebenzyklus des Projekts beteiligt, insbesondere die Analyse der Prozesse des CTS-Systems, sowie an grundlegenden Architekturentscheidungen, und der Technologieauswahl war ich maßgeblich verantwortlich. Zudem stand ich während des Projekts Kollegen als Ansprechpartner für Fragen bzgl. Spring, Spring-WS, sowie WebService-Technologien zur Verfügung. Die Umsetzung des Projekts erfolgte dabei innerhalb eines Scrum-Teams von 5-7 Personen.</span> <br />
+						</span>
+	                </p>
+	            </div>
+	        </div>
+	        <div class="project first clearfix">
+	            <div class="col-md-2 circle">
+					<span>
+						
+                            0 years
+                            
+                                <br />
+                            
+                        
+						10 months
+					</span>
+	            </div>
+	            <div class="col-md-10">
+	                <p>
+	                    <span class="key">Company</span>
+	                    <span>Ticket Online Software GmbH</span>
+	                </p>
+	                <p>
+	                    <span class="key">Position</span>
+	                    <span>Devloper</span>
+	                </p>
+	                <p>
+	                    <span class="key">Project</span>
+	                    <span>Entwicklung und Erweiterung der TO30 Online Verkaufsschnittstelle</span>
+	                </p>
+	                <p>
+	                    <span class="key">Software</span> 
+						<span> 
+							
+                                <span class="label label-primary">Java</span>
+                             
+							
+                                <span class="label label-primary">WebServices (SOAP/XML)</span>
+                             
+							
+                                <span class="label label-primary">RESTful HTTP</span>
+                            
+						</span>
+	                </p>
+	                <p>
+	                    <span class="key">Description</span>
+						<span> 
+							<span>Das TO30 Ticketingsystem stellt 2 externe Schnittstellen zur Verfügung. Zum einen auf WebService-Basis für einen Verkaufs-Client der insbesondere in Vorverkaufsstellen zum Einsatz kommt. Zum anderen eine proprietäre REST-Schnittstelle für das eigene Web-Portal, sowie für Kunden die TicketOnline-Webshops in ihre eigenen Webseiten einbinden wollen. Meine Aufgabe bestand hierbei in der Pflege, Wartung und Weiterentwicklung dieser Schnittstellen, sowie die Integration mit dem TO30-Backend und die Abstimmung und Kommunikation mit den externen Client-Implementierungsteams, sowie den Kunden. Ziel war dabei die Schnittstellen zu vereinheitlichen und vereinfachen um den gesamten TO30-Buchungsprozess darüber abbilden zu können. Hauptschwierigkeit war dabei das proprietäre TO30 System, das teils umfangreiche Refactoring-Maßnahmen mit sich brachte.</span> <br />
+						</span>
+	                </p>
+	            </div>
+	        </div>
+	        <div class="project first clearfix">
+	            <div class="col-md-2 circle">
+					<span>
+						
+                            1 years
+                            
+                                <br />
+                            
+                        
+						0 months
+					</span>
+	            </div>
+	            <div class="col-md-10">
+	                <p>
+	                    <span class="key">Company</span>
+	                    <span>T-Systems Multimedia Solutions</span>
+	                </p>
+	                <p>
+	                    <span class="key">Position</span>
+	                    <span>Devloper</span>
+	                </p>
+	                <p>
+	                    <span class="key">Project</span>
+	                    <span>Service-oriented Enterprise Applications</span>
+	                </p>
+	                <p>
+	                    <span class="key">Software</span> 
+						<span> 
+							
+                                <span class="label label-primary">Java</span>
+                             
+							
+                                <span class="label label-primary">Spring</span>
+                             
+							
+                                <span class="label label-primary">Apache Camel</span>
+                             
+							
+                                <span class="label label-primary">Mule</span>
+                             
+							
+                                <span class="label label-primary">Spring Integration</span>
+                             
+							
+                                <span class="label label-primary">Apache ActiveMQ</span>
+                            
+						</span>
+	                </p>
+	                <p>
+	                    <span class="key">Description</span>
+						<span> 
+							<span>Mitarbeit an der Umsetzung eines Suchportals. Die Basis bildete dabei ein Spring-basiertes Backend das Suchanfragen entegegen nahm und entsprechende Antworten ausgeben sollte.
+</span> <br />
+						</span>
+						<span> 
+							<span>Die Query-Verarbeitung erfolgte dabei mehrstufig, sowohl sequentiell als auch parallel. Um ein möglichst exaktes und umfangreiches Suchergebnis zu liefern wurden verschiedene interne und externe Quellen, bzw. Resourcen und Services, abgefragt und als Ergebnis aggregiert. Meine Aufgaben bestand dabei in der Evalierung von neuen Technologien insbesondere aus dem ESB- und Integration-Framework Umfeld. Nach der Vorstellung des Evaluierungserbenisses habe ich auf Basis von Spring-MVC und Apache Camel an einer prototypischen Implementierung gearbeitet, die die Einsatzmöglichkeiten von Apache Camel als Integration-Framework verdeutlichen sollte.
+</span> <br />
+						</span>
+						<span> 
+							<span>In meiner Diplomarbeit mit dem Thema: Analyse und Implemetierung einer Staged Event-Driven Architecture für ein Event-basiertes Query-Routing“ erweiterte ich die prototypische Implementierung dahingehend, dass die einzelnen Verarbeitungsschritte als sich selbst-verwaltende Nodes (sog. „Stages“) umgesetzt wurden, die je nach Auslastung skaliert werden konnten. Die Umsetzung erfolgte auch hier mittels Spring, Spring-MVC als GUI-Framework, sowie Apache Camel.</span> <br />
+						</span>
+	                </p>
+	            </div>
+	        </div>
+	    </div>
+    </div>
+</div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://comsysto.github.io/seevee-static/seevee/1/js/cv.js"></script>
+</body>
+</html>
